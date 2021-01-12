@@ -1,7 +1,5 @@
-"use strict";
-
 module.exports = function(defaultFuncs, api, ctx) {
-  return function getCurrentUserID() {
-    return ctx.userID;
-  };
+	return function getCurrentUserID() {
+		return ctx.userID;
+	};
 };
